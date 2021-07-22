@@ -18,6 +18,7 @@ Construir uma fonte reficadora que transforme uma corrente alternada (AC) de 127
 ## Componentes utilizados no projeto:
 
 | Nome               | Quantidade | Valor Unidade | Valor R$ |
+| ------------------ |-----------:| -------------:|---------:|
 | Diodo 1N4001       |          5 |        R$0,15 |   [R$0,75](https://www.baudaeletronica.com.br/diodo-1n4001.html?gclid=CjwKCAjwruSHBhAtEiwA_qCppsxkXFUC2Sy_gQdO0vh9f5p9KMD9ftG8ABoKyA15loVwlxWXfckyuBoCdT8QAvD_BwE) |
 | Capacitor 560uF    |          1 |        R$0, |   [R$,](https://www.baudaeletronica.com.br/diodo-1n4001.html?gclid=CjwKCAjwruSHBhAtEiwA_qCppsxkXFUC2Sy_gQdO0vh9f5p9KMD9ftG8ABoKyA15loVwlxWXfckyuBoCdT8QAvD_BwE) |
 | Resistor 1kΩ       |          1 |        R$0, |   [R$,](https://www.baudaeletronica.com.br/diodo-1n4001.html?gclid=CjwKCAjwruSHBhAtEiwA_qCppsxkXFUC2Sy_gQdO0vh9f5p9KMD9ftG8ABoKyA15loVwlxWXfckyuBoCdT8QAvD_BwE) |
