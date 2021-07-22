@@ -3,10 +3,10 @@
 > Clique [aqui](https://tinyurl.com/yhdfqdzs) para acessar o circuito no falstad.
 
 ## Alunos:
-Matheus Giraldi Alvarenga - 12543669
-Rafael Sartori Vantin - 12543353
-Renato Tadeu Theodoro Junior - 11796750
-Thierry de Souza Araújo - 12681094
+*  **Matheus Giraldi Alvarenga** - 12543669
+*  **Rafael Sartori Vantin** - 12543353
+*  **Renato Tadeu Theodoro Junior** - 11796750
+*  **Thierry de Souza Araújo** - 12681094
 
 
 ## Premissa:
@@ -16,6 +16,7 @@ Construir uma fonte reficadora que transforme uma corrente alternada (AC) de 127
 <!-- Imagem circuito -->
 
 ## Componentes utilizados no projeto:
+
 | Nome               | Quantidade | Valor Unidade | Valor R$ |
 | Diodo 1N4001       |          5 |        R$0,15 |   [R$0,75](https://www.baudaeletronica.com.br/diodo-1n4001.html?gclid=CjwKCAjwruSHBhAtEiwA_qCppsxkXFUC2Sy_gQdO0vh9f5p9KMD9ftG8ABoKyA15loVwlxWXfckyuBoCdT8QAvD_BwE) |
 | Capacitor 560uF    |          1 |        R$0, |   [R$,](https://www.baudaeletronica.com.br/diodo-1n4001.html?gclid=CjwKCAjwruSHBhAtEiwA_qCppsxkXFUC2Sy_gQdO0vh9f5p9KMD9ftG8ABoKyA15loVwlxWXfckyuBoCdT8QAvD_BwE) |
@@ -27,7 +28,7 @@ Construir uma fonte reficadora que transforme uma corrente alternada (AC) de 127
 | Transistor NPN     |          1 |        R$0, |   [R$,](https://www.baudaeletronica.com.br/diodo-1n4001.html?gclid=CjwKCAjwruSHBhAtEiwA_qCppsxkXFUC2Sy_gQdO0vh9f5p9KMD9ftG8ABoKyA15loVwlxWXfckyuBoCdT8QAvD_BwE) |
 | Transformador      |          1 |        R$0, |   [R$,](https://www.baudaeletronica.com.br/diodo-1n4001.html?gclid=CjwKCAjwruSHBhAtEiwA_qCppsxkXFUC2Sy_gQdO0vh9f5p9KMD9ftG8ABoKyA15loVwlxWXfckyuBoCdT8QAvD_BwE) |
 
-## Os componentes
+## Funcionamento de cada peça:
 
 * **Transformador**: reduz a tensão.
  
