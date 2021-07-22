@@ -1,4 +1,4 @@
-# Projeto Fonte Retificadora - SSC0180 Eletrõnica 
+# Projeto Fonte Retificadora - SSC0180 Eletrônica 
 
 > Clique [aqui](https://tinyurl.com/yhdfqdzs) para acessar o circuito no falstad.
 
