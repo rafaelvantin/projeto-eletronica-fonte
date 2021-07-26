@@ -47,7 +47,7 @@ Construir uma fonte reficadora que transforme uma corrente alternada (AC) de 127
 * **Transistor**: permite ajustar a passagem da corrente.
 
 ## Cálculos:
-![Cálculos](img/calculo.jpeg)
+![Cálculos](img/calculo.png)
 
 ## Esquemático EAGLE:
 ![Esquemático](img/esquematico.jpeg)
