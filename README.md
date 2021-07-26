@@ -1,6 +1,6 @@
 # Projeto Fonte Retificadora - SSC0180 Eletrônica 
 
-> Clique [aqui](https://tinyurl.com/yhdfqdzs) para acessar o circuito no falstad.
+> Clique [aqui](https://tinyurl.com/ydtqbowr) para acessar o circuito no falstad.
 
 ## Alunos:
 *  **Matheus Giraldi Alvarenga** - 12543669
@@ -13,7 +13,8 @@
 
 Construir uma fonte reficadora que transforme uma corrente alternada (AC) de 127V e frequência 60Hz em corrente contínua (DC) com tensão ajustável entre 3V a 12V e com corrente igual à 100mA.
 
-<!-- Imagem circuito -->
+## Imagem do circuito:
+![Falstad](img/falstad.png)
 
 ## Componentes utilizados no projeto:
 
@@ -45,7 +46,11 @@ Construir uma fonte reficadora que transforme uma corrente alternada (AC) de 127
 
 * **Transistor**: permite ajustar a passagem da corrente.
 
+## Cálculos:
+![Cálculos](img/calculos.jpeg)
 
-<!-- Cálculo -->
-<!-- Imagem esquematica PCB no Eagle -->
-<!-- Imagem PCB no Eagle -->
+## Esquemático EAGLE:
+![Esquemático](img/esquematico.jpeg)
+
+## Simulação EAGLE:
+![Simulação](img/pcb.jpeg)
