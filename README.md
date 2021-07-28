@@ -1,6 +1,6 @@
 # Projeto Fonte Retificadora - SSC0180 Eletrônica 
 
-> Clique [aqui](https://tinyurl.com/ydtqbowr) para acessar o circuito no falstad.
+> Clique [aqui](https://tinyurl.com/yebe395a) para acessar o circuito no falstad.
 
 ## Alunos:
 *  **Matheus Giraldi Alvarenga** - 12543669
