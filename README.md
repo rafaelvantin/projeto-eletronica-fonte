@@ -78,4 +78,4 @@ Para um ripple de **10%**:
 
 
 ## Vídeo
-Vídeo explicativo ainda em edição.
+> Clique [aqui](https://www.youtube.com/watch?v=U3tEcan6B5I) para acessar o vídeo.
