@@ -14,7 +14,7 @@
 Construir uma fonte reficadora que transforme uma corrente alternada (AC) de 127V e frequência 60Hz em corrente contínua (DC) com tensão ajustável entre 3V a 12V e com corrente igual à 100mA.
 
 ## Imagem do circuito:
-![Falstad](img/circuito1.png)
+![Falstad](img/circuito1.jpg)
 
 ## Componentes utilizados no projeto:
 
