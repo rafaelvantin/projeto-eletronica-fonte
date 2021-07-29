@@ -31,9 +31,9 @@ Construir uma fonte reficadora que transforme uma corrente alternada (AC) de 127
 
 ## Funcionamento de cada peça:
 
-* **Transformador**: reduz a tensão.
+* **Transformador**: irá modificar a tensão que chega da tomada para uma tensão menor que consiga atender todo o circuito.
  
-* **Ponte de diodo**: transforma a corrente alternada em corrente contínua variável.  
+* **Ponte de diodo**: a ponte de diodo funcionará como a ponte retificadora, ou seja, irá transformar a corrente alteranada que vem do transformador em corrente contínua. Tal ponte utiliza diodos, que são semicondutores que permitem passagem de corrente em apenas uma direção.  
 
 * **Capacitor**: age como um reservatório, fornecendo corrente para a saída quando a tensão DC varia no retificar (suaviza a tensão).
 
