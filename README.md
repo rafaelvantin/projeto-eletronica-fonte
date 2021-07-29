@@ -45,8 +45,30 @@ Construir uma fonte reficadora que transforme uma corrente alternada (AC) de 127
 
 * **Transistor**: permite ajustar a passagem da corrente.
 
-## Cálculos:
-![Cálculos](img/calc.png)
+## Cálculos
+<a href="https://www.codecogs.com/eqnedit.php?latex=Vmax&space;=&space;127&space;*&space;\sqrt{2}&space;\approx&space;180V" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Vmax&space;=&space;127&space;*&space;\sqrt{2}&space;\approx&space;180V" title="Vmax = 127 * \sqrt{2} \approx 180V" /></a>  
+<a href="https://www.codecogs.com/eqnedit.php?latex=V1max&space;=&space;180&space;*&space;0,12&space;=&space;21,6V" target="_blank"><img src="https://latex.codecogs.com/gif.latex?V1max&space;=&space;180&space;*&space;0,12&space;=&space;21,6V" title="V1max = 180 * 0,12 = 21,6V" /></a>   
+<a href="https://www.codecogs.com/eqnedit.php?latex=V2max&space;=&space;21,6&space;-&space;1,4&space;=&space;20,2&space;V" target="_blank"><img src="https://latex.codecogs.com/gif.latex?V2max&space;=&space;21,6&space;-&space;1,4&space;=&space;20,2&space;V" title="V2max = 21,6 - 1,4 = 20,2 V" /></a>
+   
+Para um ripple de **10%**:   
+<a href="https://www.codecogs.com/eqnedit.php?latex=V2med&space;=&space;V2&space;*&space;[1&space;-&space;(\frac{ripple}{2})]&space;=&space;20,2&space;*&space;[1&space;-(\frac{0,1}{2})]&space;=&space;19,19&space;V" target="_blank"><img src="https://latex.codecogs.com/gif.latex?V2med&space;=&space;V2&space;*&space;[1&space;-&space;(\frac{ripple}{2})]&space;=&space;20,2&space;*&space;[1&space;-(\frac{0,1}{2})]&space;=&space;19,19&space;V" title="V2med = V2 * [1 - (\frac{ripple}{2})] = 20,2 * [1 -(\frac{0,1}{2})] = 19,19 V" /></a>   
+<a href="https://www.codecogs.com/eqnedit.php?latex=V2ond&space;=&space;V2&space;*&space;ripple&space;=&space;20,2&space;*&space;0,1&space;=&space;2,02V" target="_blank"><img src="https://latex.codecogs.com/gif.latex?V2ond&space;=&space;V2&space;*&space;ripple&space;=&space;20,2&space;*&space;0,1&space;=&space;2,02V" title="V2ond = V2 * ripple = 20,2 * 0,1 = 2,02V" /></a>
+ 
+ 
+ ### Correntes
+ <a href="https://www.codecogs.com/eqnedit.php?latex=i(carga)&space;=&space;\frac{(Vzenner&space;-Vt)}{Rcarga}&space;=&space;\frac{13-0,7}{120}&space;=&space;0,1025A" target="_blank"><img src="https://latex.codecogs.com/gif.latex?i(carga)&space;=&space;\frac{(Vzenner&space;-Vt)}{Rcarga}&space;=&space;\frac{13-0,7}{120}&space;=&space;0,1025A" title="i(carga) = \frac{(Vzenner -Vt)}{Rcarga} = \frac{13-0,7}{120} = 0,1025A" /></a>   
+ <a href="https://www.codecogs.com/eqnedit.php?latex=i(zenner)&space;=&space;\frac{V2med&space;-&space;Vzenner}{R}&space;=&space;\frac{19,19&space;-&space;13}{1200}&space;=&space;0,00516A" target="_blank"><img src="https://latex.codecogs.com/gif.latex?i(zenner)&space;=&space;\frac{V2med&space;-&space;Vzenner}{R}&space;=&space;\frac{19,19&space;-&space;13}{1200}&space;=&space;0,00516A" title="i(zenner) = \frac{V2med - Vzenner}{R} = \frac{19,19 - 13}{1200} = 0,00516A" /></a>  
+ <a href="https://www.codecogs.com/eqnedit.php?latex=i(potenc)&space;=&space;\frac{V2med}{R&plus;R&plus;R}&space;=&space;\frac{19,19}{1,2k&plus;5k&plus;2,2k}&space;=&space;0,0023A" target="_blank"><img src="https://latex.codecogs.com/gif.latex?i(potenc)&space;=&space;\frac{V2med}{R&plus;R&plus;R}&space;=&space;\frac{19,19}{1,2k&plus;5k&plus;2,2k}&space;=&space;0,0023A" title="i(potenc) = \frac{V2med}{R+R+R} = \frac{19,19}{1,2k+5k+2,2k} = 0,0023A" /></a>  
+ <a href="https://www.codecogs.com/eqnedit.php?latex=i(total)&space;=&space;0,1025&space;&plus;&space;0,00516&space;&plus;&space;0,0023&space;=&space;0,10996A" target="_blank"><img src="https://latex.codecogs.com/gif.latex?i(total)&space;=&space;0,1025&space;&plus;&space;0,00516&space;&plus;&space;0,0023&space;=&space;0,10996A" title="i(total) = 0,1025 + 0,00516 + 0,0023 = 0,10996A" /></a>  
+ 
+ ### Capacitor
+ 
+ <a href="https://www.codecogs.com/eqnedit.php?latex=C&space;=&space;\frac{i(total)}{2*f*V2ond}&space;=&space;\frac{0,10996}{120*2,02}&space;=&space;453*10^{-6}F" target="_blank"><img src="https://latex.codecogs.com/gif.latex?C&space;=&space;\frac{i(total)}{2*f*V2ond}&space;=&space;\frac{0,10996}{120*2,02}&space;=&space;453*10^{-6}F" title="C = \frac{i(total)}{f*V2ond} = \frac{0,10996}{120*2,02} = 453*10^{-6}F" /></a>
+ 
+ Para obter um valor comercial utilizaremos um capacitor de:
+ <a href="https://www.codecogs.com/eqnedit.php?latex={\color{Red}&space;470&space;*&space;10^{-6}F}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?{\color{Red}&space;470&space;*&space;10^{-6}F}" title="{\color{Red} 470 * 10^{-6}F}" /></a>
+ 
+
 
 ## Esquemático EAGLE:
 ![Esquemático](img/esquematico.jpeg)
