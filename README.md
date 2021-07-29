@@ -75,3 +75,7 @@ Para um ripple de **10%**:
 
 ## Simulação EAGLE:
 ![Simulação](img/pcb.jpeg)
+
+
+## Vídeo
+Vídeo explicativo ainda em edição.
